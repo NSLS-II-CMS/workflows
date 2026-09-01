@@ -9,8 +9,10 @@ PROPOSAL_ROOT = Path("/nsls2/data/cms/proposals")
 
 
 def detector_mapping(detector):
-    if detector in {"pilatus300k-1", "pilatus800k-2"}:
+    if detector == "pilatus800k-2":
         return "maxs"
+    elif detector == "pilatus300k-1":
+        return "taxs"
     elif detector == "pilatus2m-1":
         return "saxs"
     elif detector == "pilatus800k-1":
