@@ -45,7 +45,7 @@
         "mask_path": "configs/Dectris/Pilatus800k2_gaps-mask.png"
       },
       {
-        "name": "taxs",
+        "name": "waxs_temp",
         "image_key": "pilatus300k-1_image",
         "position_prefix": "WAXS",
         "pixel_size_um": 172.0,

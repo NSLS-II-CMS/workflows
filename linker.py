@@ -12,7 +12,7 @@ def detector_mapping(detector):
     if detector == "pilatus800k-2":
         return "maxs"
     elif detector == "pilatus300k-1":
-        return "taxs"
+        return "waxs_temp"
     elif detector == "pilatus2m-1":
         return "saxs"
     elif detector == "pilatus800k-1":
